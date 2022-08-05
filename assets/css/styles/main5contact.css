@@ -1,0 +1,33 @@
+#main5{
+    background: #11001c;
+    height: 525px;
+}
+
+#main5 h4{
+    font-size: 60px;
+    line-height: 140px;
+}
+
+#main5 #icons a{
+    line-height: 265px;
+}
+
+
+
+@media (max-width: 626px) {
+    #main5 h4{
+        font-size: 40px;
+        margin: 0px !important;
+    }
+    #main5 #icons a{
+        margin: 0% 5% auto !important;
+    }
+}
+
+
+@media (max-width: 375px) {
+    #main5 #icons a{
+        margin: 0% 10% auto !important;
+        line-height: 100px;
+    }
+}

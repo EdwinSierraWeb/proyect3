@@ -1,0 +1,84 @@
+@import 'styles/header.css';
+@import 'styles/main1me.css';
+@import 'styles/main2technologies.css';
+@import 'styles/main3proyects.css';
+@import 'styles/main4aboutme.css';
+@import 'styles/main5contact.css';
+
+*{
+    margin: 0px auto;
+    padding: 0px;
+    scroll-behavior: smooth;
+    font-family: 'Comfortaa', cursive;
+}
+
+::-webkit-scrollbar{
+    background: transparent;
+    width: 0px;
+    height: 0px;
+}
+
+
+/*Footer*/
+#footer{
+    height: 10vh;
+    line-height: 65px;
+    color: #00FFFF;
+    background: black;
+}
+
+#footer time{
+    color: #00FFFF;
+}
+
+@media (max-width: 659px){
+    #footer{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 605px){
+    #footer{
+        font-size: 12px;
+    }
+
+    #footer time{
+        margin: 0px auto !important;
+        margin-right: 3% !important;
+    }
+}
+
+@media (max-width: 441px){
+    #footer{
+        font-size: 9px;
+    }
+
+    #footer time{
+        margin: 0px auto !important;
+        margin-right: 1% auto !important;
+    }
+}
+
+@media (max-width: 352px){
+    #footer{
+        font-size: 8px;
+    }
+
+    #footer time{
+        margin: 0px auto !important;
+    }
+}
+
+/*Observer*/
+.titles11{
+    animation: up 900ms ease-out;
+}
+
+@keyframes up{
+    from{
+        transform: translateY(40%);
+    }
+    to{
+        transform: translateY(0%);
+    }
+}
